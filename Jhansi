@@ -1,0 +1,10 @@
+# Simple AI Mini Project
+
+print("Fake News Detection")
+
+text = input("Enter a message: ")
+
+if "win" in text.lower() or "money" in text.lower():
+    print("Result: FAKE News")
+else:
+    print("Result: REAL News") 
